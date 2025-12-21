@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #222;
+    --secondary-text-color: #444;
+    --card-background-color:#fff;
+    --body-background-color:#eee;
+    --spacing-for-margin-padding: 20px;
+}
+
+.dark{
+     --primary-text-color: #fff;
+    --secondary-text-color: #ddd;
+    --card-background-color:#333;
+    --body-background-color:#eee;
+}
+.container {
+    padding: 45px;
+    /* --backg-colour: red */
+    background-color : var(--body-background-color);
+    min-height: 100vh;
+}
+
+
+
+
+h1 {
+    background-color: var(--card-background-color);
+    text-align: center;
+    color: var(-primary-text-color);
+    padding:var(--spacing-for-margin-padding);
+    margin: var(--spacing-for-margin-padding);
+}
+
+.box {
+    padding: var(--spacing-for-margin-padding);
+    margin-block: var(--spacing-for-margin-padding);
+    /* --backg-colour : aqua; */
+   border-radius: 10%;
+    background-color: var(--card-background-color);
+}
+
+h2 {
+    --backg-colour: yellow;
+    /* background-color: var(--backg-colour); */
+    color: var(--primary-text-color);
+}
+
+h4 {
+    padding: 45px;
+    /* background-color: var(--backg-colour); */
+    color: var(--primary-text-color);
+
+}
+.box p{
+    color:var(--secondary-text-color)
+}
+
+/* @media (min-width : 600px) {
+    .container{
+        --backg-colour : green 
+    }
+} */
+ 
